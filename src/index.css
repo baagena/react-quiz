@@ -8,7 +8,7 @@
   --color-accent: #ffa94d;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap");
 
 * {
   margin: 0;
@@ -176,10 +176,12 @@ progress {
   color: var(--color-light);
   border-radius: 100px;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 3rem;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
+  width: 100%;
+  display: block;
 }
 
 .result span {
